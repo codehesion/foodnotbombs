@@ -68,7 +68,7 @@ process.env['SENDGRID_API_KEY'] = <your sendgrid api key>;
 ### Run From Terminal/Console
 Change directory to the project, install and launch:
 ```
-cd node-template
+cd foodnotbombs
 npm install
 node server
 ```
