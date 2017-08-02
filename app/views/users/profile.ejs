@@ -1,0 +1,29 @@
+<% include ../partials/header.ejs %>
+
+<div class="viewport-container">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="card mt-3">
+                    <div class="card-block">
+                        <h3 class="page-title text-center">
+                	       <%= user.local.username %>
+                        </h3>
+
+                        <img id="profile-image" src="<%= user.local.avatarUrl %>">
+
+                        <p class="card-text text-center" style="margin-top: 20px;">
+                        	joined <%= createdAt %><br>
+                        	<%= user.local.email %><br>
+                   			<%= user.local.phoneNumber %>
+                        </p>
+                    </div>
+                </div>        
+            </div>    
+        </div>        
+    </div>
+
+</div>
+
+<% include ../partials/footer.ejs %>
