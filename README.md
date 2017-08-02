@@ -1,16 +1,16 @@
-# Node Template
+# Food Not Bombs Web Application
 ## Installation
 
 ### Requirements
 You should have [node.js](https://nodejs.org) and [git](https://git-scm.com/) installed on your system.
 S3 configuration requires a [Amazon Web Services(AWS)](https://aws.amazon.com) account to create a bucket, receive a access key id and secret access key.
-Email configuration requires free registration at [SendGrid](http://sendgrid.com/) to register for an API key.
-
+Email configuration requires free registration at [SendGrid](http://sendgrid.com/) to register for an API key.   
+For assistance with setup, please contact me at matthew.stewart.mi@gmail.com.
 
 ### Clone Project
 In your terminal/console clone the project by entering the following command:
 ```
-git clone https://github.com/matthewstewart/node-template.git
+git clone https://github.com/matthewstewart/foodnotbombs.git
 ```
 
 
@@ -20,8 +20,8 @@ You will need to create the following configuration file in `/config/env.js`:
 // Environment Variables
 
 // Application
-process.env['APP_TITLE'] = "Node Template";
-process.env['APP_ADMIN'] = "admin";
+process.env['APP_TITLE'] = "Food Not Bombs";
+process.env['APP_ADMIN'] = "fnbAdmin";
 
 // Database
 // Host @ https://mlab.com/
