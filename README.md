@@ -1,5 +1,5 @@
 # Food Not Bombs Web Application
-## Installation
+## Local Installation
 
 ### Requirements
 You should have [node.js](https://nodejs.org) and [git](https://git-scm.com/) installed on your system.
