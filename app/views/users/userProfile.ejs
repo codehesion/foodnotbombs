@@ -14,7 +14,9 @@
                         <img id="profile-image" src="<%= profileUser.local.avatarUrl %>">
 
                         <p class="card-text text-center" style="margin-top: 20px;">
-                            <%= profileUser.local.email %><br>
+                            <a href="mailto:<%= profileUser.local.email %>">
+                                <%= profileUser.local.email %>
+                            </a><br>
                             <%= profileUser.local.phoneNumber %>
                         </p>
                     </div>
