@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Slabo+27px');
+
 body {
   background: url(/images/fnb.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: 'Slabo 27px', serif;
 }
 
 .viewport-container {
